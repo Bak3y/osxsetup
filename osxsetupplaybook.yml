@@ -21,3 +21,7 @@
     homebrew:
       name: awscli
       state: latest
+  - name: Install kubectl
+    homebrew:
+      name: kubectl
+      state: latest
