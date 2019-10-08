@@ -1,0 +1,15 @@
+- hosts: localhost
+  tasks:
+  - name: Install VSCode
+    homebrew_cask:
+      name: visual-studio-code
+      state: latest
+  - name: Install git
+    homebrew:
+      name: git
+      state: latest
+  - name: Install bash-it
+    git:
+      repo: 'https://github.com/Bash-it/bash-it.git'
+      dest: ~/.bash_it
+      depth: 1
