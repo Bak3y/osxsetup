@@ -17,3 +17,7 @@
     homebrew:
       name: go
       state: latest
+  - name: Install awscli
+    homebrew:
+      name: awscli
+      state: latest
