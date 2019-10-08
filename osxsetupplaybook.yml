@@ -29,3 +29,7 @@
     homebrew:
       name: shellcheck
       state: latest
+  - name: Install aws-iam-authenticator
+    homebrew:
+      name: aws-iam-authenticator
+      state: latest
