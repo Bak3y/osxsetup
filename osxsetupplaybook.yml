@@ -8,11 +8,6 @@
     homebrew:
       name: git
       state: latest
-  - name: Install bash-it
-    git:
-      repo: 'https://github.com/Bash-it/bash-it.git'
-      dest: ~/.bash_it
-      depth: 1
   - name: Install go
     homebrew:
       name: go
