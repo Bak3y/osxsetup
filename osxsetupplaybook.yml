@@ -6,25 +6,11 @@
       state: latest
   - name: Install git
     homebrew:
-      name: git
-      state: latest
-  - name: Install go
-    homebrew:
-      name: go
-      state: latest
-  - name: Install awscli
-    homebrew:
-      name: awscli
-      state: latest
-  - name: Install kubectl
-    homebrew:
-      name: kubectl
-      state: latest
-  - name: Install shellcheck
-    homebrew:
-      name: shellcheck
-      state: latest
-  - name: Install aws-iam-authenticator
-    homebrew:
-      name: aws-iam-authenticator
+      name:
+        - git
+        - go
+        - awscli
+        - kubectl
+        - shellcheck
+        - aws-iam-authenticator
       state: latest
