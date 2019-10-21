@@ -13,4 +13,11 @@
         - kubectl
         - shellcheck
         - aws-iam-authenticator
+        - docker
+        - docker-compose
+        - gtop
+        - jq
+        - protobuf
+        - protoc
+        - wget
       state: latest
