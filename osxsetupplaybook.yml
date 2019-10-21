@@ -4,7 +4,7 @@
     homebrew_cask:
       name: visual-studio-code
       state: latest
-  - name: Install git
+  - name: Install homebrew stuff
     homebrew:
       name:
         - git
@@ -15,9 +15,13 @@
         - aws-iam-authenticator
         - docker
         - docker-compose
-        - gtop
+        - node
         - jq
         - protobuf
-        - protoc
         - wget
+      state: latest
+  - name: Install gtop
+    npm:
+      name: gtop
+      global: yes
       state: latest
