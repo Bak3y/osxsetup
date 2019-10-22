@@ -1,27 +1,28 @@
 - hosts: localhost
   tasks:
-  - name: Install VSCode
-    homebrew_cask:
-      name: visual-studio-code
-      state: latest
-  - name: Install homebrew stuff
-    homebrew:
-      name:
-        - git
-        - go
-        - awscli
-        - kubectl
-        - shellcheck
-        - aws-iam-authenticator
-        - docker
-        - docker-compose
-        - node
-        - jq
-        - protobuf
-        - wget
-      state: latest
-  - name: Install gtop
-    npm:
-      name: gtop
-      global: yes
-      state: latest
+    - name: Install VSCode
+      homebrew_cask:
+        name: visual-studio-code
+        state: latest
+    - name: Install homebrew stuff
+      homebrew:
+        name:
+          - git
+          - go
+          - awscli
+          - kubectl
+          - shellcheck
+          - aws-iam-authenticator
+          - docker
+          - docker-compose
+          - node
+          - jq
+          - protobuf
+          - wget
+          - terraform
+        state: latest
+    - name: Install gtop
+      npm:
+        name: gtop
+        global: yes
+        state: latest
