@@ -3,7 +3,7 @@
     - name: Install VSCode
       homebrew_cask:
         name: visual-studio-code
-        state: latest
+        state: present
     - name: Install homebrew stuff
       homebrew:
         name:
@@ -15,6 +15,14 @@
           - aws-iam-authenticator
           - docker
           - docker-compose
+          - dos2unix
+          - gh
+          - kubectx
+          - minikube
+          - tfenv
+          - tflint
+          - iterm2
+          - insomnia
           - node
           - jq
           - protobuf
