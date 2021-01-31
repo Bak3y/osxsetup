@@ -1,3 +1,3 @@
 #!/usr/local/bin/bash
 brew install python3
-brew install ansible
+python3 -m pip install ansible
