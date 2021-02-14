@@ -25,9 +25,8 @@
           - insomnia
           - node
           - jq
-          - protobuf
+          - pyenv
           - wget
-          - terraform
         state: latest
     - name: Install gtop
       npm:

@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 #only run this after your dotfiles are configured, especially to use the "code" alias
 code --install-extension AlanWalk.markdown-toc@1.5.6
